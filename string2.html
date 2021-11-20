@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>String2</title>
+    <style>
+      p {
+        color: lime;
+        margin: 1em 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="preview">
+   </section>
+  </body>
+  <script>
+      let quote = 'I do not like green eggs and ham. I do not like them';
+      let subString = 'green eggs and ham';
+      const section = document.querySelector('section');
+      let para1 = document.createElement('p');
+      para1.textContent = `The quote is ${quote}characters long.`;
+      let para2 = document.createElement('p');
+      para2.textContent = subString;
+      section.appendChild(para1);
+      section.appendChild(para2);
+  </script>
+</html>

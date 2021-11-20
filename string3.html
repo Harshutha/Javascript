@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>String3</title>
+    <style>
+      p {
+        color: lime;
+        margin: 1em 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="preview">
+   </section>
+  </body>
+  <script>
+      const list = document.querySelector('.output ul');
+let cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
+
+for (let i = 0; i < cities.length; i++) 
+{
+  let input = cities[i];
+  let result = input;
+  let input = document.createElement('li');
+  input.textContent = result;
+  list.appendChild(input);
+}
+  </script>
+</html>
